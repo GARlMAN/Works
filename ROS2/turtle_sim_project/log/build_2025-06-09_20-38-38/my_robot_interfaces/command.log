@@ -1,0 +1,4 @@
+Invoking command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces -- -j12 -l12
+Invoked command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces -- -j12 -l12
+Invoking command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces
+Invoked command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces

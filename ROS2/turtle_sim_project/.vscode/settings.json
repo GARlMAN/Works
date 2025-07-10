@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim",
+        "/home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages",
+        "/home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim",
+        "/home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages",
+        "/home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

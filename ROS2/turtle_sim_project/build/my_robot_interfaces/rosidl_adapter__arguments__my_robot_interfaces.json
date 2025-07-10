@@ -1,0 +1,8 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces:msg/TurtleArray.msg",
+    "/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces:srv/CatchTurtle.srv"
+  ]
+}

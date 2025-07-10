@@ -1,0 +1,25 @@
+[0.133s] Invoking command in '/home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup -- -j12 -l12
+[1.183s] Invoked command in '/home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup -- -j12 -l12
+[1.188s] Invoking command in '/home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup
+[1.196s] -- Install configuration: ""
+[1.197s] -- Execute custom install script
+[1.221s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.py
+[1.222s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[1.222s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup//config/gazebo_bridge.yaml
+[1.222s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup//worlds/test_world.sdf
+[1.222s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[1.222s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[1.223s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[1.223s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[1.223s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[1.223s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[1.224s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[1.224s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[1.224s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[1.224s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[1.224s] -- Symlinking: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[1.234s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[1.234s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[1.234s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[1.234s] -- Up-to-date symlink: /home/gari/Documents/ROS2/ros2_refer/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.237s] Invoked command in '/home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup

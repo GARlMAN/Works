@@ -1,0 +1,57 @@
+
+colcon build
+colcon build --symlink-install    ~ for skippjing the buiolding step
+source ~/Documents/ROS2/ros2_refer/install/setup.bash
+
+
+TO CREATE ros2 pakage
+ros2 pkg create my_robot_bringup --build-type ament_python --dependencies rclpy
+
+
+
+#in the src
+package.xml has the detials for like publishing and to add dependcies and for stuff like that
+setup.cfg you don't touch
+setup.py is similar to package xml entry points are importn for nodes and stuff
+<name> is where we create ros2 nodes
+
+
+
+#to run node
+ros2 run <ProjectName> <nodeName>
+
+
+
+//looka at tf2 frame tree
+ros2 run tf2_tools view_frames
+
+ros2 launch urdf_tutorial display.launch.py model:=/home/gari/Documents/ROS2/my_robot.urdf
+
+
+
+
+
+sudo apt install ros-humble-gazebo-ros-pkgs
+sudo apt install ros-humble-gazebo-plugins
+sudo apt install ros-humble-gazebo-msgs
+
+
+
+ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="empty.sdf -r"
+
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro my_robot.urdf.xacro)"
+
+ros2 run ros_gz_sim create -topic robot_description
+
+
+dpkg -L libignition-gazebo6-plugins
+
+ign topic -t /model/my_robot/cmd_vel -m ignition.msgs.Twist -p 'linear:{x:0.1}'
+
+ros2 run ros_gz_bridge parameter_bridge /model/my_robot/cmd_vel@geometry_msgs/msg/Twist@ignition.msgs.Twist
+
+
+
+
+
+

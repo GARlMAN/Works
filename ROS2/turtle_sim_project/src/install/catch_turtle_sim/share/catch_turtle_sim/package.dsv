@@ -1,0 +1,9 @@
+source;share/catch_turtle_sim/hook/pythonpath.ps1
+source;share/catch_turtle_sim/hook/pythonpath.dsv
+source;share/catch_turtle_sim/hook/pythonpath.sh
+source;share/catch_turtle_sim/hook/ament_prefix_path.ps1
+source;share/catch_turtle_sim/hook/ament_prefix_path.dsv
+source;share/catch_turtle_sim/hook/ament_prefix_path.sh
+source;../../build/catch_turtle_sim/share/catch_turtle_sim/hook/pythonpath_develop.ps1
+source;../../build/catch_turtle_sim/share/catch_turtle_sim/hook/pythonpath_develop.dsv
+source;../../build/catch_turtle_sim/share/catch_turtle_sim/hook/pythonpath_develop.sh

@@ -1,0 +1,33 @@
+[1.371s] Invoking command in '/home/gari/Documents/ROS2/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/build install --record /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.587s] running egg_info
+[1.587s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[1.587s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.587s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.588s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.588s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.588s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.588s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.590s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.590s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.590s] running build
+[1.591s] running build_py
+[1.591s] creating /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/build
+[1.591s] creating /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/build/lib
+[1.591s] creating /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.591s] copying my_robot_controller/__init__.py -> /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.591s] running install
+[1.591s] running install_lib
+[1.592s] creating /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.592s] copying /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.593s] byte-compiling /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.593s] running install_data
+[1.593s] creating /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/share/ament_index
+[1.593s] creating /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[1.593s] creating /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.593s] copying resource/my_robot_controller -> /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.593s] copying package.xml -> /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[1.594s] running install_egg_info
+[1.595s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.596s] running install_scripts
+[1.615s] writing list of installed files to '/home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/install.log'
+[1.638s] Invoked command in '/home/gari/Documents/ROS2/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gari/Documents/ROS2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/build install --record /home/gari/Documents/ROS2/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

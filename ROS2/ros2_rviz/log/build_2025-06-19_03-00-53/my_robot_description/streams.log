@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gari/Documents/ROS2/ros2_rviz/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description
+[2.672s] -- The C compiler identification is GNU 11.4.0
+[3.784s] -- The CXX compiler identification is GNU 11.4.0
+[3.809s] -- Detecting C compiler ABI info
+[4.115s] -- Detecting C compiler ABI info - done
+[4.124s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.126s] -- Detecting C compile features
+[4.159s] -- Detecting C compile features - done
+[4.171s] -- Detecting CXX compiler ABI info
+[4.419s] -- Detecting CXX compiler ABI info - done
+[4.431s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.431s] -- Detecting CXX compile features
+[4.432s] -- Detecting CXX compile features - done
+[5.512s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.086s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.755s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.598s] -- Configuring done
+[8.601s] -- Generating done
+[8.603s] -- Build files have been written to: /home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description
+[8.607s] Invoked command in '/home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gari/Documents/ROS2/ros2_rviz/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description
+[8.609s] Invoking command in '/home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description -- -j12 -l12
+[8.651s] Invoked command in '/home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description -- -j12 -l12
+[8.662s] Invoking command in '/home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description
+[8.669s] -- Install configuration: ""
+[8.669s] -- Execute custom install script
+[8.670s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[8.679s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+[8.687s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[8.696s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description//launch/display_launch.py
+[8.705s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description//launch/display_launch.xml
+[8.714s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[8.723s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[8.731s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[8.741s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[8.750s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/environment/path.sh
+[8.759s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[8.767s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/local_setup.bash
+[8.776s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/local_setup.sh
+[8.784s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[8.793s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[8.802s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/package.dsv
+[8.811s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[8.819s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[8.828s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[8.836s] -- Symlinking: /home/gari/Documents/ROS2/ros2_rviz/install/my_robot_description/share/my_robot_description/package.xml
+[8.846s] Invoked command in '/home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/ros2_rviz/build/my_robot_description

@@ -1,0 +1,4 @@
+spawner:
+  ros__parameters:
+    turtle_name_prefix: "turtle"
+    spawn_frequency: 1.0

@@ -1,0 +1,1 @@
+/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_interfaces/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,66 @@
+[0.763s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/gari/Documents/ROS2/turtle_sim_project']
+[0.763s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/gari/Documents/ROS2/turtle_sim_project'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x765c40b70310>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x765c40b43070>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x765c40b43070>>)
+[1.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.020s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gari/Documents/ROS2/turtle_sim_project'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'ignore_ament_install'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extensions ['colcon_pkg']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'colcon_pkg'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extensions ['colcon_meta']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'ros'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extensions ['cmake', 'python']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'cmake'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'python'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extensions ['python_setup_py']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project) by extension 'python_setup_py'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/build) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/build) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/build) ignored
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/install) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/install) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/install) ignored
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/log) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/log) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/log) ignored
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'ignore_ament_install'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extensions ['colcon_pkg']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'colcon_pkg'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'ros'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extensions ['cmake', 'python']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'cmake'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'python'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extensions ['python_setup_py']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src) by extension 'python_setup_py'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim) by extension 'ros'
+[1.047s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gari/Documents/ROS2/turtle_sim_project/src/catch_turtle_sim' with type 'ros.ament_python' and name 'catch_turtle_sim'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extensions ['colcon_pkg']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extensions ['colcon_meta']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extension 'colcon_meta'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces) by extension 'ros'
+[1.049s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

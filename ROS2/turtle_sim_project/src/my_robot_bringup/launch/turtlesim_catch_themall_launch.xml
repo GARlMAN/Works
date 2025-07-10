@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="turtlesim" exec="turtlesim_node" name="turtlesim" />
+
+    <node pkg="catch_turtle_sim" exec="turtle_controller" name="turtle_controller" />
+
+    <node pkg="catch_turtle_sim" exec="spawner" name="spawner" output="screen">
+        <param from="$(find catch_turtle_sim my_roboot_bringup)/config/catch_them_all_config.yaml" />
+    </node>
+</launch>

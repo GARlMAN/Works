@@ -1,0 +1,1 @@
+/home/gari/Documents/ROS2/ros2_refer/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing catch_turtle_sim.egg-info/PKG-INFO
+writing dependency_links to catch_turtle_sim.egg-info/dependency_links.txt
+writing entry points to catch_turtle_sim.egg-info/entry_points.txt
+writing requirements to catch_turtle_sim.egg-info/requires.txt
+writing top-level names to catch_turtle_sim.egg-info/top_level.txt
+reading manifest file 'catch_turtle_sim.egg-info/SOURCES.txt'
+writing manifest file 'catch_turtle_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages/catch-turtle-sim.egg-link (link to .)
+Installing spawner script to /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/catch_turtle_sim
+Installing turtle_controller script to /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/catch_turtle_sim
+
+Installed /home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim
+running symlink_data

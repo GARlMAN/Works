@@ -1,0 +1,18 @@
+[2.559s] Invoking command in '/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim': PYTHONPATH=/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/build --no-deps symlink_data
+[2.913s] running develop
+[3.139s] running egg_info
+[3.139s] writing catch_turtle_sim.egg-info/PKG-INFO
+[3.139s] writing dependency_links to catch_turtle_sim.egg-info/dependency_links.txt
+[3.139s] writing entry points to catch_turtle_sim.egg-info/entry_points.txt
+[3.139s] writing requirements to catch_turtle_sim.egg-info/requires.txt
+[3.140s] writing top-level names to catch_turtle_sim.egg-info/top_level.txt
+[3.142s] reading manifest file 'catch_turtle_sim.egg-info/SOURCES.txt'
+[3.178s] writing manifest file 'catch_turtle_sim.egg-info/SOURCES.txt'
+[3.180s] running build_ext
+[3.180s] Creating /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages/catch-turtle-sim.egg-link (link to .)
+[3.181s] Installing spawner script to /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/catch_turtle_sim
+[3.182s] Installing turtle_controller script to /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/catch_turtle_sim
+[3.182s] 
+[3.182s] Installed /home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim
+[3.182s] running symlink_data
+[3.208s] Invoked command in '/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim' returned '0': PYTHONPATH=/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/build --no-deps symlink_data

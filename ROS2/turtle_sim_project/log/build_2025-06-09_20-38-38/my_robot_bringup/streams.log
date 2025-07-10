@@ -1,0 +1,42 @@
+[0.237s] Invoking command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup
+[2.466s] -- The C compiler identification is GNU 11.4.0
+[2.860s] -- The CXX compiler identification is GNU 11.4.0
+[2.919s] -- Detecting C compiler ABI info
+[3.339s] -- Detecting C compiler ABI info - done
+[3.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.355s] -- Detecting C compile features
+[3.390s] -- Detecting C compile features - done
+[3.401s] -- Detecting CXX compiler ABI info
+[3.571s] -- Detecting CXX compiler ABI info - done
+[3.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.584s] -- Detecting CXX compile features
+[3.585s] -- Detecting CXX compile features - done
+[3.686s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.245s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.274s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.555s] -- Configuring done
+[6.559s] -- Generating done
+[6.561s] -- Build files have been written to: /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup
+[6.568s] Invoked command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gari/Documents/ROS2/turtle_sim_project/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup
+[6.568s] Invoking command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup -- -j12 -l12
+[6.607s] Invoked command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup -- -j12 -l12
+[6.609s] Invoking command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup
+[6.617s] -- Install configuration: ""
+[6.617s] -- Execute custom install script
+[6.618s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup//launch/turtlesim_catch_themall_launch.xml
+[6.627s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[6.637s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[6.646s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[6.656s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[6.667s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[6.677s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[6.687s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[6.697s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[6.708s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[6.718s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[6.728s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[6.741s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[6.751s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[6.760s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[6.770s] -- Symlinking: /home/gari/Documents/ROS2/turtle_sim_project/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[6.783s] Invoked command in '/home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gari/Documents/ROS2/turtle_sim_project/build/my_robot_bringup

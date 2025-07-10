@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000494] (catch_turtle_sim) JobQueued: {'identifier': 'catch_turtle_sim', 'dependencies': OrderedDict()}
+[0.000650] (catch_turtle_sim) JobStarted: {'identifier': 'catch_turtle_sim'}
+[0.100062] (-) TimerEvent: {}
+[0.200492] (-) TimerEvent: {}
+[0.300763] (-) TimerEvent: {}
+[0.401018] (-) TimerEvent: {}
+[0.501269] (-) TimerEvent: {}
+[0.601511] (-) TimerEvent: {}
+[0.701792] (-) TimerEvent: {}
+[0.802113] (-) TimerEvent: {}
+[0.902671] (-) TimerEvent: {}
+[1.003227] (-) TimerEvent: {}
+[1.103744] (-) TimerEvent: {}
+[1.204169] (-) TimerEvent: {}
+[1.304730] (-) TimerEvent: {}
+[1.405325] (-) TimerEvent: {}
+[1.505994] (-) TimerEvent: {}
+[1.606534] (-) TimerEvent: {}
+[1.627690] (catch_turtle_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/build', '--no-deps', 'symlink_data'], 'cwd': '/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'gari', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gari', 'OLDPWD': '/home/gari/Documents/ROS2/turtle_sim_project/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1910', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c49d025c7e5fb57106c0a9066841e666', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'gari', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gari', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/gari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Gari-Predator-PH315-53:@/tmp/.ICE-unix/1910,unix/Gari-Predator-PH315-53:/tmp/.ICE-unix/1910', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/72f62f93_2c7c_4b92_b2f4_7ce3eaacd3b0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.183', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c49d025c7e5fb57106c0a9066841e666', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.706603] (-) TimerEvent: {}
+[1.806898] (-) TimerEvent: {}
+[1.907142] (-) TimerEvent: {}
+[1.937048] (catch_turtle_sim) StdoutLine: {'line': b'running develop\n'}
+[2.007229] (-) TimerEvent: {}
+[2.107471] (-) TimerEvent: {}
+[2.123459] (catch_turtle_sim) StdoutLine: {'line': b'running egg_info\n'}
+[2.123618] (catch_turtle_sim) StdoutLine: {'line': b'creating catch_turtle_sim.egg-info\n'}
+[2.123758] (catch_turtle_sim) StdoutLine: {'line': b'writing catch_turtle_sim.egg-info/PKG-INFO\n'}
+[2.123973] (catch_turtle_sim) StdoutLine: {'line': b'writing dependency_links to catch_turtle_sim.egg-info/dependency_links.txt\n'}
+[2.124220] (catch_turtle_sim) StdoutLine: {'line': b'writing entry points to catch_turtle_sim.egg-info/entry_points.txt\n'}
+[2.124347] (catch_turtle_sim) StdoutLine: {'line': b'writing requirements to catch_turtle_sim.egg-info/requires.txt\n'}
+[2.124485] (catch_turtle_sim) StdoutLine: {'line': b'writing top-level names to catch_turtle_sim.egg-info/top_level.txt\n'}
+[2.124607] (catch_turtle_sim) StdoutLine: {'line': b"writing manifest file 'catch_turtle_sim.egg-info/SOURCES.txt'\n"}
+[2.126300] (catch_turtle_sim) StdoutLine: {'line': b"reading manifest file 'catch_turtle_sim.egg-info/SOURCES.txt'\n"}
+[2.127388] (catch_turtle_sim) StdoutLine: {'line': b"writing manifest file 'catch_turtle_sim.egg-info/SOURCES.txt'\n"}
+[2.128749] (catch_turtle_sim) StdoutLine: {'line': b'running build_ext\n'}
+[2.129036] (catch_turtle_sim) StdoutLine: {'line': b'Creating /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/python3.10/site-packages/catch-turtle-sim.egg-link (link to .)\n'}
+[2.129926] (catch_turtle_sim) StdoutLine: {'line': b'Installing turtle_controller script to /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/lib/catch_turtle_sim\n'}
+[2.130195] (catch_turtle_sim) StdoutLine: {'line': b'\n'}
+[2.130322] (catch_turtle_sim) StdoutLine: {'line': b'Installed /home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim\n'}
+[2.130418] (catch_turtle_sim) StdoutLine: {'line': b'running symlink_data\n'}
+[2.130549] (catch_turtle_sim) StdoutLine: {'line': b'creating /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/share/ament_index\n'}
+[2.130672] (catch_turtle_sim) StdoutLine: {'line': b'creating /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/share/ament_index/resource_index\n'}
+[2.130753] (catch_turtle_sim) StdoutLine: {'line': b'creating /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/share/ament_index/resource_index/packages\n'}
+[2.130831] (catch_turtle_sim) StdoutLine: {'line': b'symbolically linking /home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/resource/catch_turtle_sim -> /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/share/ament_index/resource_index/packages\n'}
+[2.130939] (catch_turtle_sim) StdoutLine: {'line': b'symbolically linking /home/gari/Documents/ROS2/turtle_sim_project/build/catch_turtle_sim/package.xml -> /home/gari/Documents/ROS2/turtle_sim_project/install/catch_turtle_sim/share/catch_turtle_sim\n'}
+[2.157643] (catch_turtle_sim) CommandEnded: {'returncode': 0}
+[2.197342] (catch_turtle_sim) JobEnded: {'identifier': 'catch_turtle_sim', 'rc': 0}
+[2.198217] (-) EventReactorShutdown: {}

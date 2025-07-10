@@ -1,0 +1,29 @@
+<launch xmlns="http://ros.org/ns/launch"
+        xmlns:launch="http://ros.org/ns/launch"
+        xmlns:if="http://ros.org/ns/launch"
+        xmlns:launch_ros="http://ros.org/ns/launch_ros">
+
+  <!-- Process URDF xacro to robot_description -->
+  <arg name="urdf_path" default="$(find-pkg-share my_robot_description)/urdf/my_robot.urdf.xacro" />
+
+  <param name="robot_description" command="$(find-exec xacro) $(var urdf_path)" />
+
+  <!-- Robot State Publisher Node -->
+  <node pkg="robot_state_publisher"
+        exec="robot_state_publisher"
+        name="robot_state_publisher">
+    <param name="robot_description" value="$(param robot_description)" />
+  </node>
+
+  <!-- Joint State Publisher GUI -->
+  <node pkg="joint_state_publisher_gui"
+        exec="joint_state_publisher_gui"
+        name="joint_state_publisher_gui" />
+
+  <!-- RViz2 -->
+  <node pkg="rviz2"
+        exec="rviz2"
+        name="rviz2"
+        output="screen" />
+
+</launch>

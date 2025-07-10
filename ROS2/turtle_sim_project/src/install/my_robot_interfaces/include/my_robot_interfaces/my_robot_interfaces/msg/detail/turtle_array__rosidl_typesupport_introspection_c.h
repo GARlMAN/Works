@@ -1,0 +1,1 @@
+/home/gari/Documents/ROS2/turtle_sim_project/src/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h

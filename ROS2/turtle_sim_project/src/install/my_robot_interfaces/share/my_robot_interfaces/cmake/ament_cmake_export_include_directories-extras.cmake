@@ -1,0 +1,1 @@
+/home/gari/Documents/ROS2/turtle_sim_project/src/build/my_robot_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
